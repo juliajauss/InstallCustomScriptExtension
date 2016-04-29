@@ -1,5 +1,5 @@
 ﻿Login-AzureRmAccount
-Select-AzureRmSubscription -SubscriptionID "00dd302a-92a9-4ec6-a501-213b1bb1fad1"
+Select-AzureRmSubscription -SubscriptionID "<your-subscription-id>"
 
 #Select a Resource Group
 $rg = (Get-AzureRmResourceGroup) |  Out-GridView -Title "Select a RG" -PassThru
